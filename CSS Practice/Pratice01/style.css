@@ -1,0 +1,37 @@
+
+*{
+margin: 0;
+padding: 0;
+text-align: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+padding-bottom: 8px;
+}
+
+ul{
+background-color: purple;
+color: white;
+margin: 0;
+padding: 0;
+
+
+}
+.b1{
+
+padding-bottom: 5px;
+
+}
+#b1{
+height: 40px;
+width: 100px;
+color: white;
+background-color: purple;
+border-radius: 9px;
+border-color: purple;
+}
+footer{
+font-size: small;
+background-color: purple;
+color: white;
+}
