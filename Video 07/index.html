@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Project</title>
+  </head>
+  <body>
+    <h1>Forms Project by Khishamuddin</h1>
+    
+    <div id="Username">
+      <form action="Post">
+        <label for="Username">Enter your Username</label>
+        <input
+          type="text"
+          name="Username"
+          placeholder="Type your Username"
+          id="Username"
+        />
+    </div>
+    <div id="name">
+        <form action="Post">
+            <label for="name">Enter your Name</label>
+            <input
+              type="text"
+              name="name"
+              placeholder="Type your Name"
+              id="name"
+            />
+      </form>
+    </div>
+    
+    <div id="gender">
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male" value="male"/>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female"/>
+        <label for="female">Female</label>
+    </div>
+    
+    <div id="class">
+        <label for="class">Select Class</label>
+        <select name="class" id="class">
+            <option value="FY">FY</option>
+            <option value="SY">SY</option>
+            <option value="TY">TY</option>
+            <option value="BY">BY</option>
+        </select>
+    </div>
+   
+    <div id="Division">
+        <label for="Division">Select Division</label>
+        <select name="Division" id="Division">
+            <option value="A">A</option>
+            <option value="B">B</option>
+        </select>
+    </div>
+    <label for="submit">Submit your Info</label>
+    <input type="submit" name="submit" id="submit">
+  </body>
+</html>
